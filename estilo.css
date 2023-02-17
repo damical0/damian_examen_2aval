@@ -9,34 +9,51 @@ div.enlaces{
 div.edicions{
     color: blue;
     background-color: lightsalmon;
-    width: 250px;
-    height: 200px;
+    width: 350px;
+    height: 280px;
     position: relative;
     top: 100px;
-    left: 150px;
+    left: 420px;
 
+}
+img.edicions{
+    position: relative;
+    bottom: 130px;
+    right: 350px;
 }
 div.nominats{
     color: red;
     background-color: lightseagreen;
-    width: 250px;
-    height: 200px;
+    width: 350px;
+    height: 280px;
     position: relative;
-    top: 100px;
-    left: 150px;
-
+    left: 740px;
+    top: -325px;
+    z-index: 1;
+}
+img.nominats{
+    position: relative;
+    top: -550px;
+    left: -35px;
+    z-index: 2;
 }
 div.contacte{
     color: blue;
     background-color: lightsalmon;
-    width: 250px;
-    height: 200px;
+    width: 350px;
+    height: 280px;
     position: relative;
-    top: 100px;
-    left: 150px;
+    left: 1050px;
+    top: -760px;
 }
+img.contacte{
+    position: relative;
+    top: -1000px;
+    left: 300px;
+    z-index: 2;
+}
+
 div.cuadrados{
-    display: inline;
     font-weight: bold;
 }
 
@@ -48,26 +65,28 @@ a:hover{
     color: black;
 }
 img{
-    width: 190px;
-    height: 160px;
+    width: 250px;
+    height: 200px;
 }
-img.edicions{
-    position: relative;
-    bottom: 78px;
-    right: 190px;
-}
+
 div.foot{
     background-color: yellow;
     color: blue;
     font-weight: bold;
     font-size: smaller;
     display: block;
-    height: 20px;
+    height: 25px;
     border: 1px solid black;
+    position: relative;
+    bottom: 900px;
 }
 
-
-
+a.nominats:visited{
+    color: red;
+}
+a.nominats:link{
+    color: red;
+}
 
 
 
