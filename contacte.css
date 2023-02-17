@@ -1,0 +1,25 @@
+div.titulo{
+    background-color: lightpink;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+div.enlaces{
+    background-color: aliceblue;
+}
+body{
+    text-align: center;
+}
+div.form{
+    color: blue;
+    background-color: salmon;
+    display: inline-block;
+    height: 400px;
+    width: 700px;
+}
+form{
+    font-weight: bold;
+}
+input.punt{
+    width: 150px;
+}

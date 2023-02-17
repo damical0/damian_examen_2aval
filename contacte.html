@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-    <link rel="stylesheet" href="contacte.html">
+<html lang="ca">
+    <link rel="stylesheet" href="contacte.css">
 <head>
     <title>Contacte</title>
 </head>
@@ -13,9 +13,26 @@
             <a href="contacte.html">Contacte</a>
         </div>
     </header>
+    <br><br><br>
     <main>
         <div class="form">
-            <form action=""></form>
+            <form action="votacio.php">
+                <h2>Contacte</h2>
+                <br>
+               Nom: <input type="text" name="nom" placeholder="Nom"> Cognoms: <input type="text" name="cognomns" placeholder="Cognoms">
+               <br><br>
+               Peli favorita:  <select name="pelis" id="pelis">
+                    <option value="Alcarràs">Alcarràs</option>
+                    <option value="As Bestas">As Bestas</option>
+                    <option value="Cinco Lobitos">Cinco Lobitos</option>
+                    <option value="La Maternal">La Maternal</option>
+                    <option value="Modelo 77">Modelo 77</option>
+                </select>
+                Puntuació: <input class="punt" type="number" name="Puntuació" min="1" max="10">
+                <br><br>
+               Opinió: <textarea name="Opinió" id="Opinió" cols="30" rows="10"></textarea>
+               <br><br><input type="submit" name="Votar" value="votar">
+            </form>
         </div>
     </main>
 </body>
